@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{ 
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+}
+.contaainer{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar{
+    background-color: rgb(30, 30, 30);
+    padding: 10px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#hero{
+    background-image: url(../images/Rectangle\ 10.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.op{
+    padding-top: 200px;
+}
+
+.Delicious{
+     font-family: "Sansita Swashed", system-ui;
+    padding-left: 80px;
+    color: #E9BD8C;
+}
+.Sweet{
+    font-size: 74px;
+    padding-left: 80px;
+    padding-top: 24px;
+    color: white;
+}
+.button1{
+    margin-top: 100px;
+    margin-left: 80px;
+    font-size: 24px;
+    background-color: #933C24;
+    padding: 24px 38px;
+    width: 192px;
+    height: 65;
+    color: white;
+    border: none;
+}
+.top{
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+#hero2{
+    background-image: url();
+}
+.cards{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 130px 80px;
+}
+.card img{
+    padding-left: 90px;
+}
+.card{
+    height: 411px;
+    width: 360px;
+    max-width: 360px;
+    background-image: url(../images/Rectangle\ 69.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Whole{
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.p40{
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+    font-size: 24px;
+}
+.Grain{
+    padding-top: 40px;
+    color: white;
+    font-size: 24px;
+}
+.button2{
+    border: none;
+    width: 71px;
+    background-color: #933C24;
+    color: white;
+    padding: 16px 12px;
+    margin-top: 30px;
+}
+.card2 img{
+    padding-left: 42px;
+
+}
+.card3 img{
+    padding-left: 14px;
+}
+.card4 img{
+    padding-top: 13px;
+    padding-left: 67px;
+}
+.card5 img{
+    padding-top: 21px;
+    padding-left: 66px;
+}
+.card6 img{
+    padding-left: 51px;
+}
+#hero3{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    background-image: url(../images/bg2.png);
+    padding-bottom: 130px;
+    padding-top: 130px;
+    margin-bottom: 130px;
+}
+.op2{
+    align-items: center;
+    text-align: center;
+}
+.op2 h1{
+    color: #933C24;
+    font-size: 48px;
+}
+.op2 p{
+    color: #933C24;
+    font-size: 24px;
+}
+.op2 button{
+    border-radius: 10px;
+    font-size: 24px;
+    width: 202px;
+    background-color: #933C24;
+    color: white;
+    padding: 23px 35px;
+    border: none;
+}
